@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Infrastructure",
+    "\\Infrastructure\\DatabaseContext",
+    "\\Services",
+    "\\Services\\WalletService",
+    "\\Services\\WalletService\\src",
+    "\\Services\\WalletService\\src\\Domain"
+  ],
+  "SelectedNode": "\\Infrastructure\\DatabaseContext\\ApplicationDbContext.cs",
+  "PreviewInSolutionExplorer": false
+}
