@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Infrastructure.Configurations;
 using Domain;
 
 namespace Infrastructure.DatabaseContext
@@ -10,5 +11,12 @@ namespace Infrastructure.DatabaseContext
             
         }
         public DbSet<Wallet> Wallets { get; set; }
+
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            new WalletConfiguration(modelBuilder.Entity<Wallet>());
+        }
+
     }
 }
