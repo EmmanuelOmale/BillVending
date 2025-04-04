@@ -1,0 +1,87 @@
+## Ignore Visual Studio temporary files, build results, and
+## user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build results
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+[Ll]ogs/
+
+## Rider project files
+.idea/
+
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## VS Code
+.vscode/
+.history/
+
+## Secrets and environment files
+.env
+.env.* 
+appsettings.*.json
+!appsettings.json           # keep the default config
+secrets.json
+
+## .NET Core
+project.lock.json
+project.fragment.lock.json
+*.dbmdl
+*.bak
+*.log
+*.sql
+
+## Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+## Others
+*.DS_Store
+Thumbs.db
+
+## Local tools
+tools/
+.idea/
+*.sw?
+
+## Docker
+docker-compose.override.yml
+**/Dockerfile.*
+.dockerignore
+
+## Publish output
+publish/
+wwwroot/
+
+## JetBrains Rider
+.idea/
+
+## ReSharper
+_ReSharper*/
+*.ReSharper
+*.DotSettings.user
+
+## Tye
+.tye/
+
+## Entity Framework
+Migrations/
+
+# Ignore OS generated files
+ehthumbs.db
+Icon?
+Desktop.ini
