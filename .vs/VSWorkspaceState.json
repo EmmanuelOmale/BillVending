@@ -5,9 +5,8 @@
     "\\Infrastructure\\DatabaseContext",
     "\\Services",
     "\\Services\\WalletService",
-    "\\Services\\WalletService\\src",
-    "\\Services\\WalletService\\src\\Domain"
+    "\\Services\\WalletService\\src"
   ],
-  "SelectedNode": "\\Infrastructure\\DatabaseContext\\ApplicationDbContext.cs",
+  "SelectedNode": "\\Services\\WalletService\\src\\Api",
   "PreviewInSolutionExplorer": false
 }
