@@ -3,6 +3,7 @@ using Infrastructure.DatabaseContext;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
 using Infrastructure.Interceptors;
+using Microsoft.AspNetCore.Identity;
 
 namespace Infrastructure
 {
@@ -18,7 +19,7 @@ namespace Infrastructure
             {
                 var interceptor = sp.GetRequiredService<AuditableEntitySaveChangesInterceptor>();
                 options.UseNpgsql(connStr);
-                options.AddInterceptors(interceptor); // This should now work after the upgrade
+                options.AddInterceptors(interceptor);
             });
 
             return services;
