@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Infrastructure.Configurations;
 using Domain;
-using Infrastructure.Interceptors;
+using Common.Interceptors;
 
 namespace Infrastructure.DatabaseContext
 {
@@ -17,7 +17,7 @@ namespace Infrastructure.DatabaseContext
             _auditableInterceptor = auditableInterceptor;
         }
 
-        public DbSet<Wallet> Wallets { get; set; }
+        public DbSet<Domain.Wallet> Wallets { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -26,7 +26,7 @@ namespace Infrastructure.DatabaseContext
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            new WalletConfiguration(modelBuilder.Entity<Wallet>());
+            new WalletConfiguration(modelBuilder.Entity<Domain.Wallet>());
         }
 
     }

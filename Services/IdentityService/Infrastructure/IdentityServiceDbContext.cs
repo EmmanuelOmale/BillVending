@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Domain;
 
-namespace Infrastructure.DatabaseContext
+namespace Infrastructure
 {
     public class IdentityServiceDbContext : IdentityDbContext<AppUser, IdentityRole<Guid>, Guid>
     {

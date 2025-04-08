@@ -6,7 +6,7 @@ namespace Infrastructure.Configurations
 {
     public class WalletConfiguration
     {
-        public WalletConfiguration(EntityTypeBuilder<Wallet> builder)
+        public WalletConfiguration(EntityTypeBuilder<Domain.Wallet> builder)
         {
             builder.ToTable("Wallets");
 

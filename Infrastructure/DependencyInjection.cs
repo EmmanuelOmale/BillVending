@@ -2,7 +2,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Infrastructure.DatabaseContext;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
-using Infrastructure.Interceptors;
+using Common.Interceptors;
 using Microsoft.AspNetCore.Identity;
 
 namespace Infrastructure
