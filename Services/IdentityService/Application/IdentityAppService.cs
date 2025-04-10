@@ -49,7 +49,9 @@ public class IdentityAppService : IIdentityAppService
 
     private AuthResponse GenerateToken(AppUser user)
     {
-        var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["JwtSettings:Secret"]!));
+        var jwtSettings = _config.GetSection("JwtSettings");
+
+        var key = new SymmetricSecurityKey(Convert.FromBase64String(jwtSettings["Secret"]));
         var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
         var claims = new[]

@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 //using WalletService.Domain.Entities;
 //using WalletService.Domain.Repositories;
-using Domain;
+using Domain.Entities;
 using Infrastructure.DatabaseContext;
 
 namespace Application.UserWallet.Repository

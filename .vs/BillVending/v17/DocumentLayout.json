@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Tasks\\BillVending\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Tasks\\BillVending\\Services\\WalletService\\src\\Application\\UserWallet\\Command\\Create\\CreateUserWalletCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\WalletService\\src\\Application\\UserWallet\\Command\\Create\\CreateUserWalletCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Tasks\\BillVending\\Infrastructure\\DatabaseContext\\ApplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\DatabaseContext\\ApplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Tasks\\BillVending\\Services\\WalletService\\src\\Application\\UserWallet\\Command\\Create\\CreateUserWalletCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\WalletService\\src\\Application\\UserWallet\\Command\\Create\\CreateUserWalletCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Tasks\\BillVending\\Infrastructure\\Interceptors\\AuditableEntitySaveChangesInterceptor .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -46,8 +46,7 @@
               "RelativeToolTip": "Infrastructure\\Interceptors\\AuditableEntitySaveChangesInterceptor .cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T08:55:33.164Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T08:55:33.164Z"
             },
             {
               "$type": "Document",
@@ -62,13 +61,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CreateUserWalletCommand.cs",
               "DocumentMoniker": "C:\\Tasks\\BillVending\\Services\\WalletService\\src\\Application\\UserWallet\\Command\\Create\\CreateUserWalletCommand.cs",
               "RelativeDocumentMoniker": "Services\\WalletService\\src\\Application\\UserWallet\\Command\\Create\\CreateUserWalletCommand.cs",
               "ToolTip": "C:\\Tasks\\BillVending\\Services\\WalletService\\src\\Application\\UserWallet\\Command\\Create\\CreateUserWalletCommand.cs",
               "RelativeToolTip": "Services\\WalletService\\src\\Application\\UserWallet\\Command\\Create\\CreateUserWalletCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAiAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACQAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-05T13:24:47.774Z",
               "EditorCaption": ""
@@ -87,13 +86,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Tasks\\BillVending\\Infrastructure\\DatabaseContext\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\DatabaseContext\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Tasks\\BillVending\\Infrastructure\\DatabaseContext\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Infrastructure\\DatabaseContext\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAAAAAA",
+              "ToolTip": "C:\\Tasks\\BillVending\\Infrastructure\\DatabaseContext\\ApplicationDbContext.cs*",
+              "RelativeToolTip": "Infrastructure\\DatabaseContext\\ApplicationDbContext.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T21:17:33.654Z",
               "EditorCaption": ""

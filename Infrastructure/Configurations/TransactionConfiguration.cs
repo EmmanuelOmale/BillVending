@@ -4,15 +4,19 @@ using Domain.Entities;
 
 namespace Infrastructure.Configurations
 {
-    public class WalletConfiguration
+    public class TransactionConfiguration
     {
-        public WalletConfiguration(EntityTypeBuilder<Domain.Entities.Wallet> builder)
+        public TransactionConfiguration(EntityTypeBuilder<Domain.Entities.Transaction> builder)
         {
-            builder.ToTable("Wallets");
+            builder.ToTable("Transactions");
 
             builder.Property(p => p.UserId).HasColumnName("USER_ID");
 
-            builder.Property(p => p.Balance).HasColumnName("WALLET_BALANCE");
+            builder.Property(p => p.Amount).HasColumnName("AMOUNT");
+
+            builder.Property(p => p.WalletId).HasColumnName("WALLET_ID");
+
+            builder.Property(p => p.Description).HasColumnName("DESCRIPTION");
 
             builder.Property(p => p.CreatedAt).HasColumnName("CREATED_AT");
 

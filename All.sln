@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{81626773-5F5A-4191-B946-F21404FDAEB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B02DDADB-0F06-4B41-BC54-9026C3039914}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WalletService", "WalletService", "{1CC30668-8CF4-4D21-B24B-DC2A0CD6DE71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DE5E58B1-E1CF-482F-AED7-72AD7C8475D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Services\WalletService\src\Domain\Domain.csproj", "{BDF5E4A5-3716-4336-A6FB-11F93C91E0D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{8101677D-8F8C-454D-ADDB-2427F215A336}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81626773-5F5A-4191-B946-F21404FDAEB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81626773-5F5A-4191-B946-F21404FDAEB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81626773-5F5A-4191-B946-F21404FDAEB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81626773-5F5A-4191-B946-F21404FDAEB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDF5E4A5-3716-4336-A6FB-11F93C91E0D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDF5E4A5-3716-4336-A6FB-11F93C91E0D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDF5E4A5-3716-4336-A6FB-11F93C91E0D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDF5E4A5-3716-4336-A6FB-11F93C91E0D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8101677D-8F8C-454D-ADDB-2427F215A336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8101677D-8F8C-454D-ADDB-2427F215A336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8101677D-8F8C-454D-ADDB-2427F215A336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8101677D-8F8C-454D-ADDB-2427F215A336}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1CC30668-8CF4-4D21-B24B-DC2A0CD6DE71} = {B02DDADB-0F06-4B41-BC54-9026C3039914}
+		{DE5E58B1-E1CF-482F-AED7-72AD7C8475D3} = {1CC30668-8CF4-4D21-B24B-DC2A0CD6DE71}
+		{BDF5E4A5-3716-4336-A6FB-11F93C91E0D2} = {DE5E58B1-E1CF-482F-AED7-72AD7C8475D3}
+	EndGlobalSection
+EndGlobal

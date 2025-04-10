@@ -2,14 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\Infrastructure",
+    "\\Infrastructure\\DatabaseContext",
     "\\Services",
-    "\\Services\\WalletService",
-    "\\Services\\WalletService\\src",
-    "\\Services\\WalletService\\src\\Application",
     "\\Services\\WalletService\\src\\Application\\UserWallet",
     "\\Services\\WalletService\\src\\Application\\UserWallet\\Command",
     "\\Services\\WalletService\\src\\Application\\UserWallet\\Command\\Create"
   ],
-  "SelectedNode": "\\Services\\WalletService\\src\\Application\\UserWallet\\Command\\Create\\CreateUserWalletCommand.cs",
+  "SelectedNode": "\\Infrastructure\\DatabaseContext\\ApplicationDbContext.cs",
   "PreviewInSolutionExplorer": false
 }

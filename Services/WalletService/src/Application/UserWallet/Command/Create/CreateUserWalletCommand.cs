@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Infrastructure.DatabaseContext;
 using Common;
 using MediatR;
-using Domain;
+using Domain.Entities;
 
 namespace Application.UserWallet.Command
 {
