@@ -1,10 +1,10 @@
-# 💸 Bill Vending System (Microservices Architecture)
+# Bill Vending System (Microservices Architecture)
 
 This is a modular and scalable **microservices-based backend system** for a bill vending solution. It allows users to fund a wallet, make electricity bill payments, and supports robust **asynchronous event processing**, **failure handling**, and **concurrency control** using **CQRS**, **Entity Framework Core**, and **Clean Architecture** principles.
 
 ---
 
-## 📁 Monorepo Structure
+## Monorepo Structure
 
 ```
 Services/
@@ -17,7 +17,7 @@ Services/
 
 ---
 
-## 🧱 WalletService Folder Structure
+## WalletService Folder Structure
 
 ```
 WalletService/
@@ -173,4 +173,4 @@ MIT License
 **Omale Emmanuel]**  
 Backend Engineer | .NET & Distributed Systems  
 📍 Nigeria  
-🌐 [GitHub](https://github.com/EmmanuelOmale) | 🐦 Twitter: [@A1Omale]
+🌐 [GitHub](https://github.com/EmmanuelOmale) | 🐦 Twitter: [[@A1Omale]](https://x.com/A1Omale)
